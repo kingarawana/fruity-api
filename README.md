@@ -6,6 +6,8 @@ This REST API allows you to create, move, delete, and list directories.
 
 It uses a Tree data structure to store directory structure and names.
 
+To swagger docs, start the app then visit the url: http://localhost:3000/api-docs/
+
 ## Setup
 
 Install dependencies:
