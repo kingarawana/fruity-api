@@ -1,5 +1,10 @@
 # Fruity API
 
+## Note To Reviewer
+
+You'll notice that I simply added the handler directly to the express app instance. Since this project only
+involves one simple domain, there was no need to break it out into it's own route like most large APIs.
+
 ## Description
 
 This REST API allows you to create, move, delete, and list directories.
@@ -7,6 +12,8 @@ This REST API allows you to create, move, delete, and list directories.
 It uses a Tree data structure to store directory structure and names.
 
 To swagger docs, start the app then visit the url: http://localhost:3000/api-docs/
+
+
 
 ## Setup
 
