@@ -2,7 +2,9 @@
 
 ## Description
 
-This API allows you to create, move, delete, and list directories.
+This REST API allows you to create, move, delete, and list directories.
+
+It uses a Tree data structure to store directory structure and names.
 
 ## Setup
 
@@ -32,7 +34,7 @@ Start the server in prod mode:
    
 ## How to use API
    ```
-   // POST the following JSONs
+   // POST the following JSONs to the /command endpoint.
    
    // to create a folder
    {
